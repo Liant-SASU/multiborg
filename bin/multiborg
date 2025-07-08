@@ -1,7 +1,7 @@
-#!/bin/env ruby
+#!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'multiborg'
+require "multiborg/cli"
 
-# Votre code d'application ici
-puts 'Bienvenue dans MultiBorg!'
+# Start the CLI
+Multiborg::CLI.start(ARGV)
