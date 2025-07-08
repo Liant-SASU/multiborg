@@ -1,0 +1,7 @@
+#!/bin/env ruby
+# frozen_string_literal: true
+
+require 'multiborg'
+
+# Votre code d'application ici
+puts 'Bienvenue dans MultiBorg!'
